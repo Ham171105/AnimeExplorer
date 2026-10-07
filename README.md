@@ -1,10 +1,10 @@
-# 🎌 AnimeExplorer - Aplikasi Eksplorasi Anime Android
+# AnimeExplorer - Aplikasi Eksplorasi Anime Android
 
 Aplikasi mobile Android sederhana yang dinamis untuk mengeksplorasi katalog anime menggunakan **Kotlin**, **Jetpack Compose**, **Material Design 3**, **Navigation Compose**, dan **MVVM Architecture**, yang terintegrasi langsung dengan **Tenrai REST API**.
 
 ---
 
-## 📱 Screenshot Aplikasi
+##  Screenshot Aplikasi
 
 | Home Screen (List Anime) | Detail Screen (Informasi & Sinopsis) |
 | :---: | :---: |
@@ -12,19 +12,19 @@ Aplikasi mobile Android sederhana yang dinamis untuk mengeksplorasi katalog anim
 
 ---
 
-## 🚀 Fitur Utama
+##  Fitur Utama
 
 - **Daftar Anime (Home Screen):** Menampilkan daftar anime secara dinamis menggunakan `LazyColumn` yang berisi Judul, Skor Rating (⭐), Tahun Rilis (📅), dan Jumlah Episode (📺).
 - **Detail Anime (Detail Screen):** Menampilkan informasi detail anime yang dipilih secara lengkap, termasuk Rating Umur dan Sinopsis.
 - **Handling UI State Dinamis:** Mengelola 3 kondisi UI secara efisien:
-  - ⏳ **Loading:** Menampilkan `CircularProgressIndicator` saat memuat data dari API.
-  - ❌ **Error:** Menampilkan pesan kesalahan beserta tombol **"Coba Lagi"** (Retry) ketika koneksi terputus.
-  - ✅ **Success:** Merender daftar anime atau detail anime setelah data berhasil didapatkan.
+  -  **Loading:** Menampilkan `CircularProgressIndicator` saat memuat data dari API.
+  -  **Error:** Menampilkan pesan kesalahan beserta tombol **"Coba Lagi"** (Retry) ketika koneksi terputus.
+  -  **Success:** Merender daftar anime atau detail anime setelah data berhasil didapatkan.
 - **Navigation Compose:** Perpindahan halaman yang mulus antara Home Screen dan Detail Screen.
 
 ---
 
-## 🛠️ Teknologi & Library yang Digunakan
+##  Teknologi & Library yang Digunakan
 
 - **Language:** Kotlin
 - **UI Toolkit:** Jetpack Compose + Material Design 3
@@ -36,7 +36,7 @@ Aplikasi mobile Android sederhana yang dinamis untuk mengeksplorasi katalog anim
 
 ---
 
-## 🏗️ Struktur Proyek & Arsitektur (MVVM)
+##  Struktur Proyek & Arsitektur (MVVM)
 
 Proyek ini menerapkan pola arsitektur **MVVM (Model-View-ViewModel)** dengan struktur package sebagai berikut:
 
@@ -67,7 +67,7 @@ com.example.animeexplorer
 
 ---
 
-## ⚙️ Penjelasan Teknis Alur Kode
+##  Penjelasan Teknis Alur Kode
 
 1. **Data Layer (`data/`):**
    - `Anime.kt`: Mendefinisikan model data JSON dari Tenrai API dengan pemetaan `@SerializedName` yang aman dan mendukung null safety.
@@ -86,7 +86,7 @@ com.example.animeexplorer
 
 ---
 
-## 💻 Cara Menjalankan Proyek
+##  Cara Menjalankan Proyek
 
 1. **Clone Repository ini:**
    ```bash
@@ -99,6 +99,6 @@ com.example.animeexplorer
 
 ---
 
-## 📝 Lisensi & Penulis
+##  Lisensi & Penulis
 
 Dibuat untuk memenuhi Tugas Submission Aplikasi Mobile Eksplorasi Anime.
