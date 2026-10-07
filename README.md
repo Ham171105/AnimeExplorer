@@ -8,9 +8,9 @@ Aplikasi mobile Android sederhana yang dinamis untuk mengeksplorasi katalog anim
 
 | Home Screen (List Anime) | Detail Screen (Informasi & Sinopsis) |
 | :---: | :---: |
-| *  <img width="238" height="552" alt="image" src="https://github.com/user-attachments/assets/2b52ac18-6a40-47aa-b89e-fe83c84bab7c" />
-  * | *<img width="241" height="550" alt="image" src="https://github.com/user-attachments/assets/09b759d8-aae0-4849-92c0-93fcfc83db53" />
-* |
+| <img width="238" src="https://github.com/user-attachments/assets/2b52ac18-6a40-47aa-b89e-fe83c84bab7c" /> | <img width="241" src="https://github.com/user-attachments/assets/09b759d8-aae0-4849-92c0-93fcfc83db53" /> |
+| :---: | :---: |
+| <img width="238" src="https://github.com/user-attachments/assets/2b52ac18-6a40-47aa-b89e-fe83c84bab7c" /> | <img width="241" src="https://github.com/user-attachments/assets/09b759d8-aae0-4849-92c0-93fcfc83db53" /> |
 
 ---
 
